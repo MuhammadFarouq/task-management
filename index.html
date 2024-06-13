@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-       <p>Right</p>
-       <p>Left</p>
+<div class="main">
+
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
     </div>
 
-    <div class="sidebar" id="sidebar">
-        <ul>
-            <a href="javascript:void(0)" class="closebtn" onclick="toggle()">X</a>
-            <a href="javascript:void(0)" class="openbtn" onclick="openNav()">O</a>
-            <li><i class="lni lni-home"></i><a href="#home">Home</a></li>
-            <li><i class="lni lni-envelope"></i><a href="#mail">Mail</a></li>
-            <li><i class="lni lni-library"></i><a href="#notes">Notes</a></li>
-            <li><i class="lni lni-folder"></i><a href="#projects">Projects</a></li>
-        </ul>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">≡</button>
     </div>
 
+</div>
 <script src="script.js"></script>
 </body>
 </html>
