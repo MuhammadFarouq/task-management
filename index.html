@@ -7,29 +7,74 @@
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<div class="main">
+<body> 
 
-    <div class="closebar">
-        <button class="openbtn" onclick="openNav()"><i class="lni lni-key"></i></button>
-        <i class="lni lni-home"><a href="#"></a></i>
-        <i class="lni lni-envelope"><a href="#"></a></i>
-        <i class="lni lni-notepad"><a href="#"></a></i>
-        <i class="lni lni-cogs"><a href="#"></a></i>
-        <i class="lni lni-folder"><a href="#"></a></i>
+    <div class="sidebar">
+        <div class="top">
+            <i class="lni lni-pagination" id="btn"></i>
+            <div class="logo">
+                <i class="lni lni-direction-alt"></i>
+                <span>TaskManager</span>
+            </div>
+            <div class="user">
+                <img src="user-img.jpg" alt="user image" class="user-img">
+                <div>
+                    <p class="bold">Vhey Salvador</p>
+                    <p>Admin</p>
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="lni lni-home"></i>
+                    <span class="nav-item">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="lni lni-envelope"></i>
+                    <span class="nav-item">Mail</span>
+                </a>
+                <span class="tooltip">Mail</span>
+            </li>
+            
+            <li>
+                <a href="#">
+                    <i class="lni lni-notepad"></i>
+                    <span class="nav-item">Notes</span>
+                </a>
+                <span class="tooltip">Notes</span>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="lni lni-cogs"></i>
+                    <span class="nav-item">Task</span>
+                </a>
+                <span class="tooltip">Task</span>
+            </li>
+            
+            <li>
+                <a href="#">
+                <i class="lni lni-folder"></i>
+                    <span class="nav-item">projects</span>
+                </a>
+                <span class="tooltip">projects</span>
+            </li>
+        </ul>
+        
     </div>
-    
 
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="lni lni-key"></i></a>
-        <i class="lni lni-home"><a href="#">Home</a></i>
-        <i class="lni lni-envelope"><a href="#">Mail</a></i>
-        <i class="lni lni-notepad"><a href="#">Notes</a></i>
-        <i class="lni lni-cogs"><a href="#">Task</a></i>
-        <i class="lni lni-folder"><a href="#">projects</a></i>
+    <div class="main-content">
+        <div class="container">
+            <h1>Task Management System</h1>
+            <h1>TaskManager</h1>
+        </div>
     </div>
 
-</div>
-<script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 </html>

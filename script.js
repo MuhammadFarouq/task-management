@@ -1,9 +1,6 @@
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "-100px";
-}
+let btn = document.querySelector("#btn")
+let sidebar = document.querySelector(".sidebar")
 
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
+btn.onclick = function () {
+  sidebar.classList.toggle("active")
 }
