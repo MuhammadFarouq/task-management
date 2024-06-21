@@ -159,15 +159,16 @@
     transition: all 0.5s ease;
     width: calc(100% - 80px);
     padding: 1rem;
+    display: flex;
 }
 
-.asign{
+.asign, .in-progress, .done{
     width: 250px;
     height: 100vh;
     margin-top: 20px;
 }
 
-.asign h2{
+.asign, .in-progress, .done h2{
     text-align: center;
     margin: 20px;
 }
@@ -207,7 +208,6 @@
     border: solid white .1rem;
     border-radius: 20px;
     background-color: rgb(225, 117, 117);
-    display: flex;
 }
 
 .card #important{
@@ -217,5 +217,4 @@
     border: solid white .1rem;
     border-radius: 20px;
     background-color: rgb(116, 230, 116);
-    display: flex;
 }
