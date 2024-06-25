@@ -1,132 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task</title>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-    <link rel="stylesheet" href="task.css">
-</head>
-<body>
+    <link rel="stylesheet" href="task.css" />
+  </head>
+  <body>
     <div class="sidebar active">
-        <div class="top">
-            <i class="lni lni-pagination" id="btn"></i>
-            <div class="logo">
-                <i class="lni lni-direction-alt"></i>
-                <span>TaskManagement</span>
-            </div>
-            <div class="user">
-                <img src="user-img.jpg" alt="user image" class="user-img">
-                <div>
-                    <p class="bold">Vhey Salvador</p>
-                    <p>Admin</p>
-                </div>
-            </div>
+      <div class="top">
+        <i class="lni lni-pagination" id="btn"></i>
+        <div class="logo">
+          <i class="lni lni-direction-alt"></i>
+          <span>TaskManagement</span>
         </div>
-        <ul>
-            <li>
-                <a href="index.html">
-                    <i class="lni lni-home"></i>
-                    <span class="nav-item">Home</span>
-                </a>
-                <span class="tooltip">Home</span>
-            </li>
+        <div class="user">
+          <img src="user-img.jpg" alt="user image" class="user-img" />
+          <div>
+            <p class="bold">Vhey Salvador</p>
+            <p>Admin</p>
+          </div>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <a href="index.html">
+            <i class="lni lni-home"></i>
+            <span class="nav-item">Home</span>
+          </a>
+          <span class="tooltip">Home</span>
+        </li>
 
-            <li>
-                <a href="#" id="mail-content">
-                    <i class="lni lni-envelope"></i>
-                    <span class="nav-item">Mail</span>
-                </a>
-                <span class="tooltip">Mail</span>
-            </li>
-            
-            <li>
-                <a href="#">
-                    <i class="lni lni-notepad"></i>
-                    <span class="nav-item">Notes</span>
-                </a>
-                <span class="tooltip">Notes</span>
-            </li>
+        <li>
+          <a href="mail.html" id="mail-content">
+            <i class="lni lni-envelope"></i>
+            <span class="nav-item">Mail</span>
+          </a>
+          <span class="tooltip">Mail</span>
+        </li>
 
-            <li>
-                <a href="#" id="task-content">
-                    <i class="lni lni-cogs"></i>
-                    <span class="nav-item">Task</span>
-                </a>
-                <span class="tooltip">Task</span>
-            </li>
-            
-            <li>
-                <a href="#">
-                <i class="lni lni-folder"></i>
-                    <span class="nav-item">projects</span>
-                </a>
-                <span class="tooltip">projects</span>
-            </li>
-        </ul>
-        
+        <li>
+          <a href="#">
+            <i class="lni lni-notepad"></i>
+            <span class="nav-item">Notes</span>
+          </a>
+          <span class="tooltip">Notes</span>
+        </li>
+
+        <li>
+          <a href="#" id="task-content">
+            <i class="lni lni-cogs"></i>
+            <span class="nav-item">Task</span>
+          </a>
+          <span class="tooltip">Task</span>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="lni lni-folder"></i>
+            <span class="nav-item">projects</span>
+          </a>
+          <span class="tooltip">projects</span>
+        </li>
+      </ul>
     </div>
 
     <div class="main-content">
-        <div class="task-progress">
-            <div class="asign">
-                <h2>Asign</h2>
-                <div class="card">
-                    <h3>Add New Features</h3>
-                    <p>Add search features that sort from A-Z, and add some filter</p>
-                    <span id="deadline">Due 10pm</span> <span id="urgent">Urgent</span>
-                </div>
-                <div class="card">
-                    <h3>Meeting With Client</h3>
-                    <p>Meeting with clien to discuss a new product release</p>
-                    <span id="deadline">Due next week</span> <span id="important">Important</span>
-                </div>
-            </div>
-
-            <div class="in-progress">
-                <h2>In progress</h2>
-                <div class="card">
-                    <h3>Add New Features</h3>
-                    <p>Add search features that sort from A-Z, and add some filter</p>
-                    <span id="deadline">Due 10pm</span> <span id="urgent">Urgent</span>
-                </div>
-                <div class="card">
-                    <h3>Meeting With Client</h3>
-                    <p>Meeting with clien to discuss a new product release</p>
-                    <span id="deadline">Due next week</span> <span id="important">Important</span>
-                </div>
-            </div>
-
-            <div class="done">
-                <h2>Done</h2>
-                <div class="card">
-                    <h3>Add New Features</h3>
-                    <p>Add search features that sort from A-Z, and add some filter</p>
-                    <span id="deadline">Due 10pm</span> <span id="urgent">Urgent</span>
-                </div>
-                <div class="card">
-                    <h3>Meeting With Client</h3>
-                    <p>Meeting with clien to discuss a new product release</p>
-                    <span id="deadline">Due next week</span> <span id="important">Important</span>
-                </div>
-            </div>
-
-            <div class="revision">
-                <h2>Revision</h2>
-                <div class="card">
-                    <h3>Add New Features</h3>
-                    <p>Add search features that sort from A-Z, and add some filter</p>
-                    <span id="deadline">Due 10pm</span> <span id="urgent">Urgent</span>
-                </div>
-                <div class="card">
-                    <h3>Meeting With Client</h3>
-                    <p>Meeting with clien to discuss a new product release</p>
-                    <span id="deadline">Due next week</span> <span id="important">Important</span>
-                </div>
-            </div>
-
+      <div class="task-progress">
+        <div class="asign">
+          <h2>Asign</h2>
+          <div class="card">
+            <h3>Add New Features</h3>
+            <p>Add search features that sort from A-Z, and add some filter</p>
+            <span id="deadline">Due 10pm</span> <span id="urgent">Urgent</span>
+          </div>
+          <div class="card">
+            <h3>Meeting With Client</h3>
+            <p>Meeting with clien to discuss a new product release</p>
+            <span id="deadline">Due next week</span>
+            <span id="important">Important</span>
+          </div>
         </div>
+
+        <div class="in-progress">
+          <h2>In progress</h2>
+          <div class="card">
+            <h3>Add New Features</h3>
+            <p>Add search features that sort from A-Z, and add some filter</p>
+            <span id="deadline">Due 10pm</span> <span id="urgent">Urgent</span>
+          </div>
+          <div class="card">
+            <h3>Meeting With Client</h3>
+            <p>Meeting with clien to discuss a new product release</p>
+            <span id="deadline">Due next week</span>
+            <span id="important">Important</span>
+          </div>
+        </div>
+
+        <div class="done">
+          <h2>Done</h2>
+          <div class="card">
+            <h3>Add New Features</h3>
+            <p>Add search features that sort from A-Z, and add some filter</p>
+            <span id="deadline">Due 10pm</span> <span id="urgent">Urgent</span>
+          </div>
+          <div class="card">
+            <h3>Meeting With Client</h3>
+            <p>Meeting with clien to discuss a new product release</p>
+            <span id="deadline">Due next week</span>
+            <span id="important">Important</span>
+          </div>
+        </div>
+
+        <div class="revision">
+          <h2>Revision</h2>
+          <div class="card">
+            <h3>Add New Features</h3>
+            <p>Add search features that sort from A-Z, and add some filter</p>
+            <span id="deadline">Due 10pm</span> <span id="urgent">Urgent</span>
+          </div>
+          <div class="card">
+            <h3>Meeting With Client</h3>
+            <p>Meeting with clien to discuss a new product release</p>
+            <span id="deadline">Due next week</span>
+            <span id="important">Important</span>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>
